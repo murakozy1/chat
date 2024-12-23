@@ -1,0 +1,218 @@
+.centerdiv{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9%;
+    text-align: center;
+    width: 20%;
+    background-color: rgb(88, 124, 213);
+    padding-bottom: 5%;
+    padding-top: 3%;
+    border-radius: 7%;
+    border: 2px solid white;
+}
+
+.leftdiv{
+  margin-left: 5%;
+  margin-top: 9%;
+  text-align: center;
+  width: 20%;
+  background-color: rgb(88, 124, 213);
+  padding-bottom: 5%;
+  padding-top: 3%;
+  border-radius: 7%;
+  border: 2px solid white;
+}
+
+.messagediv{
+  margin-left: 5%;
+  margin-top: 9%;
+  text-align: center;
+  background-color: rgb(88, 124, 213);
+  padding-bottom: 5%;
+  padding-top: 3%;
+  border-radius: 7%;
+  border: 2px solid white;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.box1 {
+  text-align: center;
+  background-color: rgb(88, 124, 213);
+  padding-bottom: 5%;
+  padding-top: 3%;
+  border-radius: 7%;
+  border: 2px solid white;
+  width: 20%;
+}
+
+.box2 {
+  text-align: center;
+  background-color: rgb(88, 124, 213);
+  padding-bottom: 5%;
+  padding-top: 3%;
+  border-radius: 7%;
+  border: 2px solid white;
+  width: 50%;
+}
+
+.messagebox{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0%;
+  font-size: 19px;
+  font-family: 'Gill Sans', sans-serif;
+}
+
+.message{
+  text-align: center;
+  background-color: rgb(193, 223, 249);
+  border-radius: 10%;
+  margin-right: 50%;
+  width: 35%;
+  margin-left: 10%;
+  padding-bottom: 10px;
+  word-wrap: break-word; 
+  overflow-wrap: break-word; 
+  white-space: normal;
+}
+
+.mymessage{
+  text-align: center;
+  background-color: aliceblue;
+  border-radius: 10%;
+  margin-left: 50%;
+  margin-right: 10%;
+  width: 35%;
+  padding-bottom: 10px;
+}
+
+body{
+    background-color: aliceblue;
+    background-image:url(sonic.gif);
+}
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Gill Sans', sans-serif;
+    color: #000000;
+    font-size: 56px;
+}
+
+.inputfield{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    
+}
+
+h3{
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 24px;
+}
+
+h5{
+  text-align: left;
+  padding: 3%;
+  font-size: 18px;
+}
+
+
+
+.button-27 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border: 1.5px solid grey;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  
+  min-width: 0;
+  outline: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 35%;
+  will-change: transform;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.button-28 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border: 1.5px solid grey;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  
+  min-width: 0;
+  outline: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 15%;
+  will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.error {
+  border: 2px solid red;
+}
+
+.errorRegister {
+  border: 2px solid red;
+}
